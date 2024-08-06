@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.custom-height {
+  height: calc(100vh - 78px);
+}
+
+.customH {
+  height: calc(100vh - 63px);
+}
+
+.bgMain{
+  background-image: url(../public/bgMain.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.custom {
+  position: relative;
+  top: 63px;
+}
+
+.maxWidth {
+  max-width: 1780px;
+  margin: 0 auto;
+  padding: 0 2%;
+}
+
+.mainBG {
+  width: 100%;
+  background: 
+  linear-gradient(to bottom, rgba(255, 255, 255, 0) 90%, rgb(255, 255, 255) 100%), 
+  url(../public/bgMain.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.SingBg{
+  background-image: url(../public/sign.jpg);
+  background-size: cover; 
+  background-attachment: fixed;
+  background-position: center;
+
+}
+
+.icon-wrapper {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.line{
+  margin: 0 auto;
+  height: 2px;
+  width: 1020px;
+  background-color: #DCC7B6;
+  top: -70px;
+}
+
+.gradient{
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 90%, rgba(243, 240, 235, 1) 100%) /* Gradiente na parte inferior */
+}
+
+.gradient1{
+  background: linear-gradient(to top, rgba(255, 255, 255, 0) 1%, rgb(243, 240, 235) 8%) /* Gradiente na parte inferior */
+}
+
+.whatsapp a {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 70px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  z-index: 1;
+}
+
+.whatsapp a:hover {
+  background-color: #00c93c;
+}
+
+
+
+
+
+
