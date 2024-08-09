@@ -46,7 +46,7 @@ const NavBar: React.FC = () => {
             <header className="py-3 bg-white fixed w-full z-20">
                 <div className="flex justify-between items-center maxWidth">
                     <div>
-                        <a id='main' className='font-Playwrite font-black text-primary' href=""><img src="Logo.png" alt="" /></a>
+                        <a id='main' className='font-Playwrite font-black text-primary' href=""><img className='w-[150px]' src="Logo1.png" alt="" /></a>
                     </div>
                     <div className="lg:hidden">
                         <button onClick={toggleMenu} className="text-primary focus:outline-none">
@@ -60,7 +60,7 @@ const NavBar: React.FC = () => {
                         </button>
                     </div>
 
-                    <nav className={`lg:flex ${isOpen ? 'block' : 'hidden'} custom-height text-center bg-second flex flex-col gap-10 items-center justify-center  absolute left-0 z-10 top-[78px] uppercase w-full lg:flex lg:h-[39px] lg:flex-row lg:static lg:w-auto lg:bg-transparent`}>
+                    <nav className={`lg:flex ${isOpen ? 'block' : 'hidden'} custom-height text-center bg-second flex flex-col gap-10 items-center justify-center  absolute left-0 z-10 top-[62px] uppercase w-full lg:flex lg:h-[39px] lg:flex-row lg:static lg:w-auto lg:bg-transparent`}>
 
                             <ScrollLink duration={500} offset={-92} to='inicio' smooth={true} onClick={closeMenu}>
                                 <span className={`block  py-2 cursor-pointer text-black  ${activeSection === 'inicio' ? 'border-b-[2px] lg:border-primary' : ''}`}>Início</span>

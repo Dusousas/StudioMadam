@@ -1,7 +1,7 @@
 export default function Footer() {
     return (
         <>
-            <footer className="bg-second py-6">
+            <footer id="contact" className="bg-second py-6">
                 <div className="">
                     <p className="text-center text-primary2">Studio Madam &copy; - Todos os direitos reservados</p>
                     <div className="flex gap-1 justify-center">
